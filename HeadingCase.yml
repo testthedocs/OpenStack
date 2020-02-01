@@ -1,0 +1,7 @@
+---
+extends: capitalization
+message: “%s” should be in sentence case.
+link: https://docs.openstack.org/contributor-guide/writing-style/headings.html#general-guidelines
+level: warning
+scope: heading
+match: $sentence
