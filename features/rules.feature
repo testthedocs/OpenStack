@@ -12,11 +12,11 @@ Feature: Rules
       fail.md:5:20:OpenStack.Branding:Use “OpenStack” instead of “openstack”
       fail.md:5:54:OpenStack.Positive:Use “incorrect” or “inconsistent” instead of “wrong”
       fail.md:7:32:OpenStack.Colons:Do not use colons in headings if it is not explicitly required.
-      fail.md:9:1:OpenStack.Contractions:Generally, do not contract the words such as “Don't”.
       fail.md:9:32:OpenStack.Contractions:Generally, do not contract the words such as “we're”.
       fail.md:9:32:OpenStack.FirstPerson:Use first person plural pronouns such as “we” judiciously.
-      fail.md:9:39:OpenStack.Contractions:Generally, do not contract the words such as “we'll”.
+      fail.md:9:1:OpenStack.Contractions:Generally, do not contract the words such as “Don't”.      
       fail.md:9:39:OpenStack.FirstPerson:Use first person plural pronouns such as “we” judiciously.
+      fail.md:9:39:OpenStack.Contractions:Generally, do not contract the words such as “we'll”      
       fail.md:9:48:OpenStack.Contractions:Generally, do not contract the words such as “it's”.
       fail.md:9:48:OpenStack.This:Do not overuse “it”
       fail.md:9:68:OpenStack.This:Do not overuse “that”
